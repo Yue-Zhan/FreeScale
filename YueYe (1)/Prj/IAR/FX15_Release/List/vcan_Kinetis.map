@@ -1,0 +1,311 @@
+###############################################################################
+#
+# IAR ELF Linker V7.40.3.8902/W32 for ARM                 26/Jan/2016  18:02:02
+# Copyright 2007-2015 IAR Systems AB.
+#
+#    Output file  =  
+#        E:\飞思卡尔资料\新建文件夹\山外K60参考代码V5.1（支持FX和DNZ）\第六章\DMA_鹰眼摄像头OV7725串口显示\Prj\IAR\FX15_Release\Exe\vcan_Kinetis.out
+#    Map file     =  
+#        E:\飞思卡尔资料\新建文件夹\山外K60参考代码V5.1（支持FX和DNZ）\第六章\DMA_鹰眼摄像头OV7725串口显示\Prj\IAR\FX15_Release\List\vcan_Kinetis.map
+#    Command line =  
+#        E:\飞思卡尔资料\新建文件夹\山外K60参考代码V5.1（支持FX和DNZ）\第六章\DMA_鹰眼摄像头OV7725串口显示\Prj\IAR\FX15_Release\Obj\main.o
+#        E:\飞思卡尔资料\新建文件夹\山外K60参考代码V5.1（支持FX和DNZ）\第六章\DMA_鹰眼摄像头OV7725串口显示\Prj\IAR\FX15_Release\Obj\misc.o
+#        E:\飞思卡尔资料\新建文件夹\山外K60参考代码V5.1（支持FX和DNZ）\第六章\DMA_鹰眼摄像头OV7725串口显示\Prj\IAR\FX15_Release\Obj\MK60_adc.o
+#        E:\飞思卡尔资料\新建文件夹\山外K60参考代码V5.1（支持FX和DNZ）\第六章\DMA_鹰眼摄像头OV7725串口显示\Prj\IAR\FX15_Release\Obj\MK60_conf.o
+#        E:\飞思卡尔资料\新建文件夹\山外K60参考代码V5.1（支持FX和DNZ）\第六章\DMA_鹰眼摄像头OV7725串口显示\Prj\IAR\FX15_Release\Obj\MK60_dac.o
+#        E:\飞思卡尔资料\新建文件夹\山外K60参考代码V5.1（支持FX和DNZ）\第六章\DMA_鹰眼摄像头OV7725串口显示\Prj\IAR\FX15_Release\Obj\MK60_dma.o
+#        E:\飞思卡尔资料\新建文件夹\山外K60参考代码V5.1（支持FX和DNZ）\第六章\DMA_鹰眼摄像头OV7725串口显示\Prj\IAR\FX15_Release\Obj\MK60_DWT.o
+#        E:\飞思卡尔资料\新建文件夹\山外K60参考代码V5.1（支持FX和DNZ）\第六章\DMA_鹰眼摄像头OV7725串口显示\Prj\IAR\FX15_Release\Obj\MK60_flash.o
+#        E:\飞思卡尔资料\新建文件夹\山外K60参考代码V5.1（支持FX和DNZ）\第六章\DMA_鹰眼摄像头OV7725串口显示\Prj\IAR\FX15_Release\Obj\MK60_ftm.o
+#        E:\飞思卡尔资料\新建文件夹\山外K60参考代码V5.1（支持FX和DNZ）\第六章\DMA_鹰眼摄像头OV7725串口显示\Prj\IAR\FX15_Release\Obj\MK60_gpio.o
+#        E:\飞思卡尔资料\新建文件夹\山外K60参考代码V5.1（支持FX和DNZ）\第六章\DMA_鹰眼摄像头OV7725串口显示\Prj\IAR\FX15_Release\Obj\MK60_i2c.o
+#        E:\飞思卡尔资料\新建文件夹\山外K60参考代码V5.1（支持FX和DNZ）\第六章\DMA_鹰眼摄像头OV7725串口显示\Prj\IAR\FX15_Release\Obj\MK60_it.o
+#        E:\飞思卡尔资料\新建文件夹\山外K60参考代码V5.1（支持FX和DNZ）\第六章\DMA_鹰眼摄像头OV7725串口显示\Prj\IAR\FX15_Release\Obj\MK60_lptmr.o
+#        E:\飞思卡尔资料\新建文件夹\山外K60参考代码V5.1（支持FX和DNZ）\第六章\DMA_鹰眼摄像头OV7725串口显示\Prj\IAR\FX15_Release\Obj\MK60_mcg.o
+#        E:\飞思卡尔资料\新建文件夹\山外K60参考代码V5.1（支持FX和DNZ）\第六章\DMA_鹰眼摄像头OV7725串口显示\Prj\IAR\FX15_Release\Obj\MK60_PIT.o
+#        E:\飞思卡尔资料\新建文件夹\山外K60参考代码V5.1（支持FX和DNZ）\第六章\DMA_鹰眼摄像头OV7725串口显示\Prj\IAR\FX15_Release\Obj\MK60_port.o
+#        E:\飞思卡尔资料\新建文件夹\山外K60参考代码V5.1（支持FX和DNZ）\第六章\DMA_鹰眼摄像头OV7725串口显示\Prj\IAR\FX15_Release\Obj\MK60_rtc.o
+#        E:\飞思卡尔资料\新建文件夹\山外K60参考代码V5.1（支持FX和DNZ）\第六章\DMA_鹰眼摄像头OV7725串口显示\Prj\IAR\FX15_Release\Obj\MK60_spi.o
+#        E:\飞思卡尔资料\新建文件夹\山外K60参考代码V5.1（支持FX和DNZ）\第六章\DMA_鹰眼摄像头OV7725串口显示\Prj\IAR\FX15_Release\Obj\MK60_SysTick.o
+#        E:\飞思卡尔资料\新建文件夹\山外K60参考代码V5.1（支持FX和DNZ）\第六章\DMA_鹰眼摄像头OV7725串口显示\Prj\IAR\FX15_Release\Obj\MK60_uart.o
+#        E:\飞思卡尔资料\新建文件夹\山外K60参考代码V5.1（支持FX和DNZ）\第六章\DMA_鹰眼摄像头OV7725串口显示\Prj\IAR\FX15_Release\Obj\MK60_wdog.o
+#        E:\飞思卡尔资料\新建文件夹\山外K60参考代码V5.1（支持FX和DNZ）\第六章\DMA_鹰眼摄像头OV7725串口显示\Prj\IAR\FX15_Release\Obj\startup_MK60DZ10.o
+#        E:\飞思卡尔资料\新建文件夹\山外K60参考代码V5.1（支持FX和DNZ）\第六章\DMA_鹰眼摄像头OV7725串口显示\Prj\IAR\FX15_Release\Obj\system_MK60DZ10.o
+#        E:\飞思卡尔资料\新建文件夹\山外K60参考代码V5.1（支持FX和DNZ）\第六章\DMA_鹰眼摄像头OV7725串口显示\Prj\IAR\FX15_Release\Obj\VCAN_key.o
+#        E:\飞思卡尔资料\新建文件夹\山外K60参考代码V5.1（支持FX和DNZ）\第六章\DMA_鹰眼摄像头OV7725串口显示\Prj\IAR\FX15_Release\Obj\VCAN_LED.o
+#        E:\飞思卡尔资料\新建文件夹\山外K60参考代码V5.1（支持FX和DNZ）\第六章\DMA_鹰眼摄像头OV7725串口显示\Prj\IAR\FX15_Release\Obj\VCAN_MMA7455.o
+#        E:\飞思卡尔资料\新建文件夹\山外K60参考代码V5.1（支持FX和DNZ）\第六章\DMA_鹰眼摄像头OV7725串口显示\Prj\IAR\FX15_Release\Obj\VCAN_NRF24L0.o
+#        E:\飞思卡尔资料\新建文件夹\山外K60参考代码V5.1（支持FX和DNZ）\第六章\DMA_鹰眼摄像头OV7725串口显示\Prj\IAR\FX15_Release\Obj\VCAN_OV7725_Eagle.o
+#        E:\飞思卡尔资料\新建文件夹\山外K60参考代码V5.1（支持FX和DNZ）\第六章\DMA_鹰眼摄像头OV7725串口显示\Prj\IAR\FX15_Release\Obj\VCAN_RTC_count.o
+#        E:\飞思卡尔资料\新建文件夹\山外K60参考代码V5.1（支持FX和DNZ）\第六章\DMA_鹰眼摄像头OV7725串口显示\Prj\IAR\FX15_Release\Obj\VCAN_SCCB.o
+#        E:\飞思卡尔资料\新建文件夹\山外K60参考代码V5.1（支持FX和DNZ）\第六章\DMA_鹰眼摄像头OV7725串口显示\Prj\IAR\FX15_Release\Obj\vectors.o
+#        --redirect _Printf=_PrintfLargeNoMb --redirect _Scanf=_ScanfLargeNoMb
+#        -o
+#        E:\飞思卡尔资料\新建文件夹\山外K60参考代码V5.1（支持FX和DNZ）\第六章\DMA_鹰眼摄像头OV7725串口显示\Prj\IAR\FX15_Release\Exe\vcan_Kinetis.out
+#        --map
+#        E:\飞思卡尔资料\新建文件夹\山外K60参考代码V5.1（支持FX和DNZ）\第六章\DMA_鹰眼摄像头OV7725串口显示\Prj\IAR\FX15_Release\List\vcan_Kinetis.map
+#        --config
+#        "E:\飞思卡尔资料\新建文件夹\山外K60参考代码V5.1（支持FX和DNZ）\第六章\DMA_鹰眼摄像头OV7725串口显示\Prj\IAR\config
+#        files\vcan_ROM_K60N512.icf"
+#        E:\飞思卡尔资料\新建文件夹\山外K60参考代码V5.1（支持FX和DNZ）\第六章\DMA_鹰眼摄像头OV7725串口显示\Prj\IAR\..\..\Lib\CMSIS\iar_cortexM4l_math.a
+#        --entry __iar_program_start --redirect __write=__write_buffered
+#        --inline --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x00000000 { ro section .intvec };
+"A2":  place at 0x00000410 { ro section .noinit };
+"P1":  place in [from 0x00000000 to 0x00080000] { ro, block CodeRelocate };
+"P2":  place in [from 0x1fff0410 to 0x20010000] {
+          rw, block CodeRelocateRam, block CSTACK, block HEAP };
+
+  Section              Kind        Address    Size  Object
+  -------              ----        -------    ----  ------
+"A1":                                        0x410
+  .intvec              const    0x00000000   0x410  vectors.o [1]
+                              - 0x00000410   0x410
+
+"A2":                                          0x8
+  .noinit              ro code  0x00000410     0x8  startup_MK60DZ10.o [1]
+                              - 0x00000418     0x8
+
+"P1":                                        0xfbc
+  .text                ro code  0x00000418   0x434  VCAN_SCCB.o [1]
+  .text                ro code  0x0000084c    0x48  MK60_gpio.o [1]
+  .text                ro code  0x00000894    0x74  MK60_port.o [1]
+  Veneer               ro code  0x00000908     0x8  - Linker created -
+  .text                ro code  0x00000910   0x1a8  MK60_mcg.o [1]
+  .text                ro code  0x00000ab8   0x17c  MK60_uart.o [1]
+  .text                ro code  0x00000c34   0x154  VCAN_OV7725_Eagle.o [1]
+  .text                ro code  0x00000d88    0x50  MK60_DWT.o [1]
+  .text                ro code  0x00000dd8    0xf8  MK60_dma.o [1]
+  .text                ro code  0x00000ed0   0x10a  main.o [1]
+  .text                ro code  0x00000fdc    0x18  misc.o [1]
+  .data_init                    0x00000ff4   0x10c  <Block>
+    Initializer bytes  const    0x00000ff4   0x10c  <for .data-1>
+  .text                ro code  0x00001100    0xc0  system_MK60DZ10.o [1]
+  .text                ro code  0x000011c0    0x2c  MK60_wdog.o [1]
+  .text                ro code  0x000011ec    0x76  ABImemcpy_unaligned.o [5]
+  .text                ro code  0x00001264     0x6  ABImemclr.o [5]
+  .text                ro code  0x0000126c    0x5e  ABImemset.o [5]
+  CodeRelocate                  0x000012cc    0x48  <Block>
+    Initializer bytes  const    0x000012cc    0x48  <for CodeRelocateRam-1>
+  .text                ro code  0x00001314    0x40  zero_init3.o [5]
+  .text                ro code  0x00001354    0x28  data_init.o [5]
+  .iar.init_table      const    0x0000137c    0x10  - Linker created -
+  .text                ro code  0x0000138c    0x1a  cmain.o [5]
+  .text                ro code  0x000013a6     0x4  exit.o [3]
+  .text                ro code  0x000013ac     0xa  cexit.o [5]
+  .text                ro code  0x000013b8     0xc  XXexit.o [5]
+  .text                ro code  0x000013c4     0xc  cstartup_M.o [5]
+  .text                ro code  0x000013d0     0x4  MK60_conf.o [1]
+  .rodata              const    0x000013d4     0x0  zero_init3.o [5]
+                              - 0x000013d4   0xfbc
+
+"P2":                                       0x1678
+  .data                         0x1fff0410   0x10c  <Block>
+    .data-1                     0x1fff0410   0x109  <Init block>
+      .data            inited   0x1fff0410    0x14  MK60_gpio.o [1]
+      .data            inited   0x1fff0424    0x58  MK60_mcg.o [1]
+      .data            inited   0x1fff047c     0x4  MK60_mcg.o [1]
+      .data            inited   0x1fff0480    0x14  MK60_port.o [1]
+      .data            inited   0x1fff0494    0x18  MK60_uart.o [1]
+      .data            inited   0x1fff04ac     0x8  VCAN_OV7725_Eagle.o [1]
+      .data            inited   0x1fff04b4    0x65  VCAN_OV7725_Eagle.o [1]
+  CodeRelocateRam               0x1fff051c    0x48  <Block>
+    CodeRelocateRam-1           0x1fff051c    0x48  <Init block>
+      .textrw          inited   0x1fff051c    0x48  MK60_mcg.o [1]
+  .bss                          0x1fff0564  0x1524  <Block>
+    .bss               zero     0x1fff0564  0x1518  main.o [1]
+    .bss               zero     0x1fff1a7c     0xc  system_MK60DZ10.o [1]
+                              - 0x1fff1a88  0x1678
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x1524:
+          0x1fff0564  0x1524
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                 ro code  rw code  ro data  rw data
+    ------                 -------  -------  -------  -------
+E:\飞思卡尔资料\新建文件夹\山外K60参考代码V5.1（支持FX和DNZ）\第六章\DMA_鹰眼摄像头OV7725串口显示\Prj\IAR\FX15_Release\Obj: [1]
+    MK60_DWT.o                  80
+    MK60_conf.o                  4
+    MK60_dma.o                 248
+    MK60_gpio.o                 72                20       20
+    MK60_mcg.o                 424       72      164       92
+    MK60_port.o                116                20       20
+    MK60_uart.o                380                24       24
+    MK60_wdog.o                 44
+    VCAN_OV7725_Eagle.o        340               109      109
+    VCAN_SCCB.o              1 076
+    main.o                     266                      5 400
+    misc.o                      24
+    startup_MK60DZ10.o           8
+    system_MK60DZ10.o          192                         12
+    vectors.o                                  1 040
+    ---------------------------------------------------------
+    Total:                   3 274       72    1 377    5 677
+
+command line: [2]
+    ---------------------------------------------------------
+    Total:
+
+dl7M_tlf.a: [3]
+    exit.o                       4
+    ---------------------------------------------------------
+    Total:                       4
+
+m7M_tl.a: [4]
+    ---------------------------------------------------------
+    Total:
+
+rt7M_tl.a: [5]
+    ABImemclr.o                  6
+    ABImemcpy_unaligned.o      118
+    ABImemset.o                 94
+    XXexit.o                    12
+    cexit.o                     10
+    cmain.o                     26
+    cstartup_M.o                12
+    data_init.o                 40
+    zero_init3.o                64
+    ---------------------------------------------------------
+    Total:                     382
+
+    Gaps                        10
+    Linker created               8                19
+-------------------------------------------------------------
+    Grand Total:             3 678       72    1 396    5 677
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address    Size  Type      Object
+-----                      -------    ----  ----      ------
+.bss$$Base              0x1fff0564           --   Gb  - Linker created -
+.bss$$Limit             0x1fff1a88           --   Gb  - Linker created -
+.data$$Base             0x1fff0410           --   Gb  - Linker created -
+.data$$Limit            0x1fff051c           --   Gb  - Linker created -
+.data_init$$Base        0x00000ff4           --   Gb  - Linker created -
+.data_init$$Limit       0x00001100           --   Gb  - Linker created -
+.iar.init_table$$Base   0x0000137c           --   Gb  - Linker created -
+.iar.init_table$$Limit  0x0000138c           --   Gb  - Linker created -
+?main                   0x0000138d          Code  Gb  cmain.o [5]
+CodeRelocate$$Base      0x000012cc           --   Gb  - Linker created -
+CodeRelocate$$Limit     0x00001314           --   Gb  - Linker created -
+CodeRelocateRam$$Base   0x1fff051c           --   Gb  - Linker created -
+CodeRelocateRam$$Limit  0x1fff0564           --   Gb  - Linker created -
+DMA0_IRQHandler         0x00000fd1     0x4  Code  Gb  main.o [1]
+GPIOX                   0x1fff0410    0x14  Data  Gb  MK60_gpio.o [1]
+PORTA_IRQHandler        0x00000fb5    0x14  Code  Gb  main.o [1]
+PORTX                   0x1fff0480    0x14  Data  Gb  MK60_port.o [1]
+Region$$Table$$Base     0x0000137c           --   Gb  - Linker created -
+Region$$Table$$Limit    0x0000138c           --   Gb  - Linker created -
+Reset_Handler           0x00000411          Code  Gb  startup_MK60DZ10.o [1]
+SCCB_GPIO_init          0x00000419    0x2a  Code  Gb  VCAN_SCCB.o [1]
+SCCB_ReadByte           0x0000066f    0x24  Code  Gb  VCAN_SCCB.o [1]
+SCCB_ReadByte_one       0x00000693   0x1ac  Code  Lc  VCAN_SCCB.o [1]
+SCCB_SendByte           0x00000571    0x5a  Code  Lc  VCAN_SCCB.o [1]
+SCCB_Start              0x00000443    0x6a  Code  Lc  VCAN_SCCB.o [1]
+SCCB_Stop               0x000004ad    0x64  Code  Lc  VCAN_SCCB.o [1]
+SCCB_WaitAck            0x00000511    0x60  Code  Lc  VCAN_SCCB.o [1]
+SCCB_WriteByte          0x000005cb    0xa4  Code  Gb  VCAN_SCCB.o [1]
+UARTN                   0x1fff0494    0x18  Data  Gb  MK60_uart.o [1]
+__BOOT_STACK_ADDRESS {Abs}
+                        0x2000fff8           --   Gb  command line/config [2]
+__VECTOR_RAM {Abs}      0x1fff0000           --   Gb  command line/config [2]
+__VECTOR_TABLE {Abs}    0x00000000           --   Gb  command line/config [2]
+__aeabi_memclr          0x00001265          Code  Gb  ABImemclr.o [5]
+__cmain                 0x0000138d          Code  Gb  cmain.o [5]
+__code_start__ {Abs}    0x00000410           --   Gb  command line/config [2]
+__exit                  0x000013b9          Code  Gb  XXexit.o [5]
+__iar_Memset_word       0x0000126d          Code  Gb  ABImemset.o [5]
+__iar_data_init3        0x00001355    0x28  Code  Gb  data_init.o [5]
+__iar_program_start     0x000013c5          Code  Gb  cstartup_M.o [5]
+__iar_unaligned___aeabi_memcpy
+                        0x000011ed          Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned___aeabi_memcpy4
+                        0x0000120d          Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned___aeabi_memcpy8
+                        0x0000120d          Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_zero_init3        0x00001315    0x40  Code  Gb  zero_init3.o [5]
+__vector_table          0x00000000   0x410  Data  Gb  vectors.o [1]
+_call_main              0x00001399          Code  Gb  cmain.o [5]
+_exit                   0x000013ad          Code  Gb  cexit.o [5]
+_main                   0x000013a3          Code  Gb  cmain.o [5]
+bus_clk_khz             0x1fff1a84     0x4  Data  Gb  system_MK60DZ10.o [1]
+common_startup          0x00001149    0x48  Code  Gb  system_MK60DZ10.o [1]
+core_clk_khz            0x1fff1a7c     0x4  Data  Gb  system_MK60DZ10.o [1]
+core_clk_mhz            0x1fff1a80     0x4  Data  Gb  system_MK60DZ10.o [1]
+default_isr             0x000013d1     0x2  Code  Gb  MK60_conf.o [1]
+dma_portx2buff_init     0x00000dd9    0xf8  Code  Gb  MK60_dma.o [1]
+dwt_delay_ms            0x00000d89    0x42  Code  Gb  MK60_DWT.o [1]
+exit                    0x000013a7     0x4  Code  Gb  exit.o [3]
+gpio_init               0x0000084d    0x42  Code  Gb  MK60_gpio.o [1]
+img                     0x1fff07bc  0x12c0  Data  Gb  main.o [1]
+img_extract             0x00000f3b    0x76  Code  Gb  main.o [1]
+imgbuff                 0x1fff0564   0x258  Data  Gb  main.o [1]
+main                    0x00000ed1    0x6a  Code  Gb  main.o [1]
+mcg_cfg                 0x1fff0424    0x58  Data  Gb  MK60_mcg.o [1]
+mcg_div                 0x1fff047c     0x4  Data  Gb  MK60_mcg.o [1]
+mcg_div_count           0x00000911   0x122  Code  Gb  MK60_mcg.o [1]
+ov7725_eagle_cfgnum     0x1fff0518     0x1  Data  Gb  VCAN_OV7725_Eagle.o [1]
+ov7725_eagle_dma        0x00000d11     0x8  Code  Gb  VCAN_OV7725_Eagle.o [1]
+ov7725_eagle_get_img    0x00000d23    0x34  Code  Gb  VCAN_OV7725_Eagle.o [1]
+ov7725_eagle_img_buff   0x1fff04b0     0x4  Data  Gb  VCAN_OV7725_Eagle.o [1]
+ov7725_eagle_img_flag   0x1fff04ac     0x1  Data  Gb  VCAN_OV7725_Eagle.o [1]
+ov7725_eagle_init       0x00000c35    0xac  Code  Gb  VCAN_OV7725_Eagle.o [1]
+ov7725_eagle_reg        0x1fff04b4    0x64  Data  Gb  VCAN_OV7725_Eagle.o [1]
+ov7725_eagle_vsync      0x00000ce1    0x30  Code  Gb  VCAN_OV7725_Eagle.o [1]
+pll_init                0x00000a33    0x7a  Code  Gb  MK60_mcg.o [1]
+port_init               0x00000895    0x2c  Code  Gb  MK60_port.o [1]
+port_init_NoALT         0x000008c1    0x38  Code  Gb  MK60_port.o [1]
+set_sys_dividers        0x1fff051d    0x48  Code  Gb  MK60_mcg.o [1]
+set_vector_handler      0x00000fe3     0x8  Code  Gb  misc.o [1]
+start                   0x00001101    0x14  Code  Gb  system_MK60DZ10.o [1]
+sysinit                 0x00001115    0x34  Code  Gb  system_MK60DZ10.o [1]
+uart_init               0x00000ab9   0x148  Code  Gb  MK60_uart.o [1]
+uart_putbuff            0x00000c01    0x24  Code  Gb  MK60_uart.o [1]
+wdog_disable            0x000011c1    0x26  Code  Gb  MK60_wdog.o [1]
+write_vtor              0x00000fdd     0x6  Code  Gb  misc.o [1]
+
+
+[1] = E:\飞思卡尔资料\新建文件夹\山外K60参考代码V5.1（支持FX和DNZ）\第六章\DMA_鹰眼摄像头OV7725串口显示\Prj\IAR\FX15_Release\Obj
+[2] = command line
+[3] = dl7M_tlf.a
+[4] = m7M_tl.a
+[5] = rt7M_tl.a
+
+  3 678 bytes of readonly  code memory
+     72 bytes of readwrite code memory
+  1 396 bytes of readonly  data memory
+  5 677 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
