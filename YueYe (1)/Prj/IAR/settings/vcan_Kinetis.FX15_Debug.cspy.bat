@@ -25,7 +25,7 @@ if not "%1" == "" goto debugFile
 
 @echo on 
 
-"D:\Program Files (x86)\IAR 7.40\common\bin\cspybat" -f "E:\Projects\YueYe (1)\Prj\IAR\settings\vcan_Kinetis.FX15_Debug.general.xcl" --backend -f "E:\Projects\YueYe (1)\Prj\IAR\settings\vcan_Kinetis.FX15_Debug.driver.xcl" 
+"D:\Program Files\common\bin\cspybat" -f "E:\飞思卡尔资料\YueYe (1)\Prj\IAR\settings\vcan_Kinetis.FX15_Debug.general.xcl" --backend -f "E:\飞思卡尔资料\YueYe (1)\Prj\IAR\settings\vcan_Kinetis.FX15_Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"D:\Program Files (x86)\IAR 7.40\common\bin\cspybat" -f "E:\Projects\YueYe (1)\Prj\IAR\settings\vcan_Kinetis.FX15_Debug.general.xcl" "--debug_file=%1" --backend -f "E:\Projects\YueYe (1)\Prj\IAR\settings\vcan_Kinetis.FX15_Debug.driver.xcl" 
+"D:\Program Files\common\bin\cspybat" -f "E:\飞思卡尔资料\YueYe (1)\Prj\IAR\settings\vcan_Kinetis.FX15_Debug.general.xcl" "--debug_file=%1" --backend -f "E:\飞思卡尔资料\YueYe (1)\Prj\IAR\settings\vcan_Kinetis.FX15_Debug.driver.xcl" 
 
 @echo off 
 :end

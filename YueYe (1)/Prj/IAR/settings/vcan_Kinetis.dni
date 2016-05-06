@@ -9,7 +9,7 @@ TriggerName=main
 LimitSize=0
 ByteLimit=50
 [DebugChecksum]
-Checksum=1465042235
+Checksum=922126801
 [Exceptions]
 StopOnUncaught=_ 0
 StopOnThrow=_ 0
@@ -59,7 +59,8 @@ Bp7=_ 1 "EMUL_CODE" "{$PROJ_DIR$\..\..\Board\src\core.c}.57.9" 0 0 1 "" 0 "" 0
 Bp8=_ 1 "EMUL_CODE" "{$PROJ_DIR$\..\..\Board\src\core.c}.170.17" 0 0 1 "" 0 "" 0
 Bp9=_ 1 "EMUL_CODE" "{$PROJ_DIR$\..\..\Board\src\core.c}.181.13" 0 0 1 "" 0 "" 0
 Bp10=_ 1 "EMUL_CODE" "{$PROJ_DIR$\..\..\Board\src\core.c}.183.17" 0 0 1 "" 0 "" 0
-Count=11
+Bp11=_ 1 "EMUL_CODE" "{$PROJ_DIR$\..\..\App\main.c}.27.8" 0 0 1 "" 0 "" 0
+Count=12
 [Aliases]
 Count=0
 SuppressDialog=0

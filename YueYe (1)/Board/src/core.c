@@ -43,7 +43,7 @@ void img_extract(uint8 *dst, uint8 *src, uint32 srclen)
     }
 }
 uint8 size = 4;
-uint8 model = 1;
+uint8 model = 0;
 #define boma_get(x) ((GPIO_PDIR_REG(GPIOX_BASE(x)) >> PTn(x)) & 0x01)
 __RAMFUNC void Scan()
 {
@@ -76,11 +76,11 @@ __RAMFUNC void Scan()
           }
           else
           {
-             if(center_x < 4)
+             if(center_x < 1)
              {
                  left_s(center_x);
              }
-             else if(center_x > 5)
+             else if(center_x > 4)
              {
                  right_s(center_x);
              }
@@ -253,8 +253,8 @@ __RAMFUNC void left_s(uint8 center)
 //    }
     if(steer_mid < STEER_LEFT_MAX) 
     {
-      if(center < 3)
-        steer_mid = steer_mid + 250;
+      if(center < 2)
+        steer_mid = steer_mid + 200;
       else
         steer_mid = steer_mid + 100;
       FTM_PWM_Duty(SD5_FTM,SD5_CH,steer_mid);
@@ -269,8 +269,8 @@ __RAMFUNC void right_s(uint8 center)
 //    }
     if(steer_mid > STEER_RIGHT_MAX)
     {
-      if(center > 6)
-        steer_mid = steer_mid - 250;
+      if(center > 5)
+        steer_mid = steer_mid - 200;
       else
         steer_mid = steer_mid - 100;
       FTM_PWM_Duty(SD5_FTM,SD5_CH,steer_mid);
@@ -280,19 +280,19 @@ __RAMFUNC void turn_s(uint8 center)
 {
     if(center < 20){
       if(steer_mid + 500 <= STEER_RIGHT_MAX)
-        steer_mid = steer_mid + 500;
+        steer_mid = steer_mid + 300;
     }
     else if(center < 36){
       if(steer_mid + 250 <= STEER_RIGHT_MAX)
-        steer_mid = steer_mid + 250;
+        steer_mid = steer_mid + 100;
     }
     else if(center > 60){
       if(steer_mid - 500 >= STEER_LEFT_MAX)
-        steer_mid = steer_mid - 500;
+        steer_mid = steer_mid - 300;
     }
     else if(center > 44){
       if(steer_mid - 250 >= STEER_LEFT_MAX)
-        steer_mid = steer_mid - 250;
+        steer_mid = steer_mid - 100;
     }
     else {
       steer_mid = steer_mid_debug;
@@ -906,8 +906,25 @@ void DMA1_IRQHandler()
 void PIT0_IRQHandler()
 {
     pit0_flag = 1;
-    Ultrasonic_Compute();
+//    Ultrasonic_Compute();
     PIT_Flag_Clear(PIT0);
+}
+void PIT2_IRQHandler()
+{
+    if(speed_count <= 100)
+    {
+        back();
+        DELAY_MS(800);
+        if(steer_mid <= steer_mid_debug)
+        {
+           steer_mid = STEER_LEFT_MAX;
+        }
+        else
+          steer_mid = STEER_RIGHT_MAX;
+        front();
+        DELAY_MS(200);
+    }
+    PIT_Flag_Clear(PIT2);
 }
 void uart4_handler()
 {
