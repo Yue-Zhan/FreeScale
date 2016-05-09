@@ -1,0 +1,15 @@
+"D:\Program Files (x86)\IAR 7.40\arm\bin\armproc.dll" 
+
+"D:\Program Files (x86)\IAR 7.40\arm\bin\armjlink.dll" 
+
+"E:\Projects\GitHub\FreeScale\YueYe (1)\Prj\IAR\FX15_Debug\Exe\vcan_Kinetis.out" 
+
+--plugin "D:\Program Files (x86)\IAR 7.40\arm\bin\armbat.dll" 
+
+--device_macro "D:\Program Files (x86)\IAR 7.40\arm\config\debugger\Freescale\Kxx.dmac" 
+
+--flash_loader "D:\Program Files (x86)\IAR 7.40\arm\config\flashloader\Freescale\FlashK60Fxxx128K.board" 
+
+
+
+
